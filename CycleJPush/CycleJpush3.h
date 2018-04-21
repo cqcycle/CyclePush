@@ -6,9 +6,9 @@
 //  Copyright © 2017年 Cycle. All rights reserved.
 //   JPush极光推送3.0版本
 
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "CycleJPushHelp.h"
-@interface CycleJpush3 : AppDelegate
+@interface CycleJpush3 : UIResponder <UIApplicationDelegate>
 /**
  *  初始化SDK
  */
