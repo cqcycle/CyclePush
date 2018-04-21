@@ -13,7 +13,7 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/cqcycle/CyclePush.git", :tag => s.version.to_s }
 
 s.source_files  = "CycleJPush", "CycleJPush/**/*.{h,m}"
-# s.public_header_files = "CycleJPush/**/*.h"
+# s.public_header_files = "CycleJPush/Lib/**/*.h"
 s.frameworks = "UIKit", "Foundation"
 s.requires_arc = true
 
